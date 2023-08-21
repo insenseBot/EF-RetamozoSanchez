@@ -1,0 +1,23 @@
+@server = https://studious-space-spork-wwvg74x57vjfw5p-8080.app.github.dev
+@instumentos = {{server}}/api/instrumentos
+@musicos = {{server}}/api/musicos
+###
+GET {{instumentos}}
+###
+POST {{instumentos}}
+Content-Type: application/json
+
+{
+    "nombre": "Quena",
+    "categoria": "Viento",
+    "descripcion": "Tubo de madera con orificios"
+}
+###
+POST {{musicos}}
+Content-Type: application/json
+
+{"nombre": "Otro Músico"}
+###
+GET {{server}}/api/integrantes/1/instrumento
+###
+GET {{server}}/api/reportes/1/reportar
