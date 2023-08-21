@@ -1,4 +1,4 @@
-@server = https://studious-space-spork-wwvg74x57vjfw5p-8080.app.github.dev
+@server = https://verbose-yodel-7v7665gp5x9hpq9r-8080.app.github.dev
 @instumentos = {{server}}/api/instrumentos
 @musicos = {{server}}/api/musicos
 ###
@@ -20,4 +20,4 @@ Content-Type: application/json
 ###
 GET {{server}}/api/integrantes/1/instrumento
 ###
-GET {{server}}/api/reportes/1/reportar
+GET {{server}}/api/reportes/4/reportar
