@@ -40895,9 +40895,9 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
     _classCallCheck(this, PageHome);
     _this = _super.call(this, props);
     _this.state = {
-      reportes: [],
+      vehiculos: [],
       clientes: [],
-      vehiculos: []
+      reportes: []
     };
     return _this;
   }
@@ -40943,13 +40943,13 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
           "width": "calc(100% / 3)"
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
-        entidad: "Reporte",
-        emoji: "\uD83D\uDCD1"
-      }), /*#__PURE__*/React.createElement(ReporteList, {
-        reportes: this.state.reportes
+        entidad: "Vehiculo",
+        emoji: "\uD83D\uDE99"
+      }), /*#__PURE__*/React.createElement(VehiculoList, {
+        vehiculos: this.state.vehiculos
       }), /*#__PURE__*/React.createElement(Link, {
-        to: "/nuevo-reporte"
-      }, "Nuevo Reporte")), /*#__PURE__*/React.createElement("div", {
+        to: "/nuevo-vehiculo"
+      }, "Nuevo Vehiculo")), /*#__PURE__*/React.createElement("div", {
         style: {
           "width": "calc(100% / 3)"
         }
@@ -40965,13 +40965,13 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
           "width": "calc(100% / 3)"
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
-        entidad: "Vehiculo",
-        emoji: "\uD83D\uDE99"
-      }), /*#__PURE__*/React.createElement(VehiculoList, {
-        vehiculos: this.state.vehiculos
+        entidad: "Reporte",
+        emoji: "\uD83D\uDCD1"
+      }), /*#__PURE__*/React.createElement(ReporteList, {
+        reportes: this.state.reportes
       }), /*#__PURE__*/React.createElement(Link, {
-        to: "/nuevo-vehiculo"
-      }, "Nuevo Vehiculo"))));
+        to: "/nuevo-reporte"
+      }, "Nuevo Reporte"))));
     }
   }]);
   return PageHome;
